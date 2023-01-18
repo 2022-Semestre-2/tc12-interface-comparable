@@ -17,11 +17,6 @@ public abstract class PoligonoRegular implements Area, Perimetro {
     }
 
     @Override
-    public double calcularArea() {
-        return calcularPerimetro() * apotema / 2;
-    }
-
-    @Override
     public double calcularPerimetro() {
         return cantLados * lado;
     }
